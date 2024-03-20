@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="bg-[#071013]">
+    <div class="container">
+      <div class="flex flex-col items-center justify-center h-screen">
+        <h1
+          class="text-3xl font-extrabold mb-5 text-white hover:text-[#4382ef]"
+        >
+          ANIMATED BUTTON
+        </h1>
+
+        <!-- COLOR BOX -->
+        <section>
+          <div
+            id="color-box"
+            class="w-48 h-48 bg-gray-200 border-2 border-gray-300 rounded-lg p-8 text-center text-lg"
+          >
+            <!-- This is my color box -->
+          </div>
+        </section>
+        <!-- END OF COLOR BOX SECTION -->
+
+        <!-- BUTTON SECTION -->
+        <section>
+          <div>
+            <button
+              id="change-color-btn"
+              class="flex mt-7 border border-black animate-bounce justify-center w-[10rem] rounded-lg text-xl font-serif text-white bg-black hover:text-[#4382ef] hover:border-white"
+            >
+              HIT ME :)
+            </button>
+          </div>
+        </section>
+        <!-- END OF BUTTON SECTION -->
+      </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
